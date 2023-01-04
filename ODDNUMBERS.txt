@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main() {
+    int num;
+    printf("Enter an integer: ");
+    scanf("%d", &num);
+
+    if(num>0)
+    {
+    if((num % 2)! == 0)
+        printf("%d is odd.", num);
+    else
+	printf("%d is not odd number.", num");
+    
+    }
+	else
+	printf("Invalid input\n");
+    return 0;
+}
